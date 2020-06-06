@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Times New Roman", Times, serif, sans-serif;
+}
+.about{
+    height: 70vh;
+    width: 70%;
+    margin: 50px auto;
+    margin-top: 50px;
+    border-radius: 45px 45px 45px 45px;
+    box-shadow: 10px 9px 5px 1px rgba(98,102,98,1);
+    background: white;
+    background: linear-gradient(45deg, rgb(249, 250, 247) 54%, rgb(236, 240, 226) 55%, rgb(216, 214, 214) 73%, rgb(216, 214, 214) 100%);
+    overflow: hidden;
+
+}
+.img{
+    width: 200px;
+    height: 200px;
+    background: url(img/profile.jpg);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    top: 90px;
+    left: 20px;
+    border-radius: 100px 100px 100px 100px;
+    border: 1px solid;
+    overflow: hidden;
+}
+.about h3{
+    margin-left: 31%;
+    margin-bottom: 10px;
+
+}
+.about P{
+    margin-left: 30%;
+}
+.icon ul{
+
+    position: absolute;
+    left: 38%;
+    bottom: 30px;
+    
+}
+.icon ul li{
+    display: inline-block;
+    padding: 40px;
+}
+.icon ul li a{
+    color: rgb(129, 129, 129);
+    font-size: 25px;
+}
+.icon ul li a:hover{
+    color: black;
+
+}
+@media(max-width: 768px){
+    .img{
+       margin-left: 45px;
+    }  
+    .about{
+        height: 90vh;
+    } 
+    .about h3{
+        margin-top: 90px;
+        margin-left: 17px;
+    }
+    .about p{
+        margin-left: 20px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+    .about br{
+        display: none;
+    }
+    .icon ul{
+       position: relative;
+       left: 20%;
+       bottom: 20%;
+        margin-right: 20px;
+    }
+}
